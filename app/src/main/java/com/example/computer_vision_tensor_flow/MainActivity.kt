@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         val img: ImageView = findViewById(R.id.imageToLabel)
         // assets folder image file name with extension
-        val fileName = "flower1.jpg"
+        val fileName = "flower.jpg"
         // get bitmap from assets folder
         val bitmap: Bitmap? = assetsToBitmap(fileName)
         bitmap?.apply {
